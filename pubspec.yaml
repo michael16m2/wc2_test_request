@@ -1,0 +1,24 @@
+name: wc2_test_request
+description: Shows howto issue a eth_sendTransaction request using wc2.
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  walletconnect_flutter_v2: ^2.0.6
+  url_launcher: ^6.1.11
+  web3dart: ^2.6.1
+  provider: ^6.0.0
+  http: ^0.13.6
+  walletconnect_modal_flutter: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
